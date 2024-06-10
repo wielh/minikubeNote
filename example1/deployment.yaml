@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: helloworldDemoApp
+  template:
+    metadata:
+      labels:
+        app: helloworldDemoApp
+    spec:
+      containers:
+        - name: helloworld-container
+          image: wielh/helloworld:latest
+          ports:
+            - containerPort: 3001
+  
