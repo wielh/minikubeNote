@@ -37,6 +37,8 @@
     kubectl create -f <filename>.yaml : 建立 Pod
     kubectl get pods
     kubectl delete pod <podName>
+    kubectl logs <podName>
+    kubectl exec -it <podName> -- /bin/bash : 進入 pod 的 terminal
 ```
 
 * depolyment 相關指令 
@@ -65,14 +67,12 @@
     minikube addons enable ingress : 安裝ingress 插件
 ```
 
-* reference 
-
-```
-    https://www.youtube.com/watch?v=SL83f7Nzxr0&t=848s&ab_channel=GeekHour
-    https://chengweihu.com/kubernetes-tutorial-2-service-deployment-ingress/
-```
-
 ## 4. TODO
 
 * kubernete 的 pod 連線到本地
 * ingress
+
+
+## 5. reference 
+    https://www.youtube.com/watch?v=SL83f7Nzxr0&t=848s&ab_channel=GeekHour
+    https://chengweihu.com/kubernetes-tutorial-2-service-deployment-ingress/
