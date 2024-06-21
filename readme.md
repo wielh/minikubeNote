@@ -74,5 +74,6 @@
 
 
 ## 5. reference 
-    https://www.youtube.com/watch?v=SL83f7Nzxr0&t=848s&ab_channel=GeekHour
-    https://chengweihu.com/kubernetes-tutorial-2-service-deployment-ingress/
+
+    * https://www.youtube.com/watch?v=SL83f7Nzxr0&t=848s&ab_channel=GeekHour
+    * https://chengweihu.com/kubernetes-tutorial-2-service-deployment-ingress/
